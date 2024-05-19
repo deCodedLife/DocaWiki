@@ -1,0 +1,43 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="built-on" content="2024-05-19T19:28:40.825023"><title>Умные списки | DocaCRM</title><script type="application/json" id="virtual-toc-data">[{"id":"-x6iacc_10","level":0,"title":"Структура","anchor":"#-x6iacc_10"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Умные списки | DocaCRM"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="DocaCRM Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/https://docs.docacrm.ru/home.html/smart-lists.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Умные списки | DocaCRM"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/https://docs.docacrm.ru/home.html/smart-lists.html#webpage",
+    "url": "writerside-documentation/https://docs.docacrm.ru/home.html/smart-lists.html",
+    "name": "Умные списки | DocaCRM",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentationhttps://docs.docacrm.ru/home.html/#website",
+    "url": "writerside-documentationhttps://docs.docacrm.ru/home.html/",
+    "name": "DocaCRM Help"
+}</script><!-- End Schema.org --></head><body data-id="smart_lists" data-main-title="Умные списки" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="home.md|Начало работы///obejct_fields.md|Поля объекта"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>DocaCRM  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="smart_lists" id="smart_lists.md">Умные списки</h1><p id="-x6iacc_2">Используется, когда Вам требуется список объектов с дополнительными, настраиваемыми полями Например список товаров с указанием количества товара. Для этого необходимо указать тип поля <code class="code" id="-x6iacc_3">field_type</code> как <code class="code" id="-x6iacc_4">smart_list</code>.</p><p id="-x6iacc_5">Настройка умных списков производится через настройки поля - ключ <code class="code" id="-x6iacc_6">settings</code>. Для настройки списка, необходимо добавить ключ <code class="code" id="-x6iacc_7">properties</code> в <code class="code" id="-x6iacc_8">settings</code> поля объекта. Настройки списка повторяют структуру обычного поля в объекте</p><figure id="-x6iacc_9"><img alt="smart_lists.png" src="images/smart_lists.png" title="smart_lists.png" width="1065" height="341"></figure><section class="chapter"><h2 id="-x6iacc_10" data-toc="-x6iacc_10">Структура</h2><aside class="prompt" data-type="warning" data-title="" id="-x6iacc_11"><p id="-x6iacc_12">* Обязательные поля</p></aside><div class="table-wrapper"><table class="wide" id="-x6iacc_13"><thead><tr class="ijRowHead" id="-x6iacc_14"><th id="-x6iacc_15"><p>Параметр</p></th><th id="-x6iacc_16"><p>Тип данных</p></th><th id="-x6iacc_17"><p>Описание</p></th></tr></thead><tbody><tr id="-x6iacc_18"><td id="-x6iacc_19"><p>* title</p></td><td id="-x6iacc_20"><p>string</p></td><td id="-x6iacc_21"><p>Заголовок поля</p></td></tr><tr id="-x6iacc_22"><td id="-x6iacc_23"><p>* article</p></td><td id="-x6iacc_24"><p>string</p></td><td id="-x6iacc_25"><p>Артикул поля</p></td></tr><tr id="-x6iacc_26"><td id="-x6iacc_27"><p>* data_type</p></td><td id="-x6iacc_28"><p>string</p></td><td id="-x6iacc_29"><p>Тип данных</p></td></tr><tr id="-x6iacc_30"><td id="-x6iacc_31"><p>* field_type</p></td><td id="-x6iacc_32"><p>string</p></td><td id="-x6iacc_33"><p>Тип поля</p></td></tr><tr id="-x6iacc_34"><td id="-x6iacc_35"><p>size</p></td><td id="-x6iacc_36"><p>int</p></td><td id="-x6iacc_37"><p>Размер поля (от 1 до 4)</p></td></tr><tr id="-x6iacc_38"><td id="-x6iacc_39"><p>search</p></td><td id="-x6iacc_40"><p>string</p></td><td id="-x6iacc_41"><p>Поиск поля по <code class="code" id="-x6iacc_42">article</code> в таблице</p></td></tr><tr id="-x6iacc_43"><td id="-x6iacc_44"><p>list_donor</p></td><td id="-x6iacc_45"><p>object</p></td><td id="-x6iacc_46"><p>Связанный объект</p></td></tr></tbody></table></div><section class="chapter"><h3 id="-x6iacc_47" data-toc="-x6iacc_47">Пример</h3><div class="code-block" data-lang="json">
+{
+  &quot;...&quot;: &quot;...&quot;,
+  &quot;settings&quot;: {
+    &quot;properties&quot;: [
+      {
+        &quot;title&quot;: &quot;Продукт&quot;,
+        &quot;article&quot;: &quot;id&quot;,
+        &quot;data_type&quot;: &quot;integer&quot;,
+        &quot;field_type&quot;: &quot;list&quot;,
+        &quot;size&quot;: 3,
+        &quot;search&quot;: &quot;products&quot;,
+        &quot;list_donor&quot;: {
+          &quot;table&quot;: &quot;products&quot;,
+          &quot;properties_title&quot;: &quot;title&quot;
+        }
+      },
+      {
+        &quot;size&quot;: 1,
+        &quot;article&quot;: &quot;amount&quot;,
+        &quot;data_type&quot;: &quot;integer&quot;,
+        &quot;field_type&quot;: &quot;integer&quot;,
+        &quot;title&quot;: &quot;Количество&quot;
+      }
+    ]
+  }
+}
+</div></section></section><div class="last-modified">Last modified: 19 мая 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="custom-list.html" class="navigation-links__prev">Кастомный список</a><a href="commands-schemes.html" class="navigation-links__next">Схемы комманд</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.js"></script></body></html>
